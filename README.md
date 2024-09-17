@@ -1,86 +1,89 @@
-# Pi Trivia World
+# Trivia World
 
-# Project Description Document
+## Introduction:
+**Trivia World** is an innovative trivia game built on the Pi Blockchain, offering players the chance to engage in fun, interactive gameplay while earning reward tokens. Players answer trivia questions sourced from an open API, with tokens that can be accumulated and redeemed for in-game activities, including general scoring, tournament entry, and purchases. Additionally, the app features a peer-to-peer (P2P) mode for competitive play, enabling participants to join tournaments using Pi cryptocurrency as an entry fee.
 
-## Project Title:  
-**Trivia World**
-
-## Introduction:  
-Trivia World is an innovative trivia game built on the Pi Blockchain, allowing players to engage in fun and interactive gameplay while earning reward tokens. Players answer a series of trivia questions sourced from an open API, and these tokens can be accumulated and redeemed for various in-game activities such as general scoring, entering tournaments, or making in-game purchases. The app also features a peer-to-peer (P2P) mode for competitive play, with the option to join tournaments using Pi as an entry fee.
-
-## Objective:  
-The goal of Trivia World is to provide a fun and educational gaming experience while integrating blockchain technology for in-game rewards and transactions. The app will incentivize participation through rewards and competitions, leveraging Pi cryptocurrency for secure and decentralized tournament payments.
+## Objective:
+The objective of **Trivia World** is to provide a seamless fusion of entertainment, education, and blockchain technology. By integrating a reward system and tournament-style gameplay, the app encourages user participation and competition, with the added security and transparency of blockchain-powered transactions.
 
 ## Features:
+
 1. **Trivia Questions:**
-   - Fetches 20 questions from an open API, providing a wide variety of topics and difficulty levels.
-   - Players answer questions to accumulate reward tokens based on their performance.
-   
+   - Fetches 20 random trivia questions from an open API, ensuring a broad variety of topics and difficulty levels.
+   - Players can earn reward tokens based on their performance, incentivizing engagement.
+
 2. **Reward Tokens:**
-   - Players earn tokens for answering trivia questions correctly.
-   - Tokens can be used for general score tracking or to purchase items, such as power-ups or customizations.
-   - Tokens can also be used to enter tournaments where the winners will receive prizes.
-   
+   - Players accumulate tokens for each correct answer.
+   - Tokens can be used to track scores, purchase items such as power-ups and customizations, or enter tournaments.
+   - Tokens offer flexibility for a range of in-game actions, creating a dynamic experience.
+
 3. **Tournament Mode:**
    - Players can enter tournaments by paying an entry fee in Pi cryptocurrency.
-   - Multiple players compete in a timed trivia challenge, and the highest-scoring players win Pi or other in-game rewards.
-   
-4. **P2P Mode:**
-   - This feature allows players to challenge their friends or other players in one-on-one matches or small group competitions.
-   - The P2P mode is still under development, and the mechanics will focus on fair and balanced gameplay for all participants.
+   - The tournament system allows multiple players to compete in timed trivia challenges, with the highest-scoring participants winning Pi or other in-game rewards.
+
+4. **P2P Mode (Coming Soon):**
+   - Players can challenge friends or other users in head-to-head or small group trivia matches.
+   - Fair and balanced matchmaking ensures competitive gameplay across skill levels.
+   - Further development will include customizable challenges and real-time interactions.
 
 5. **Blockchain Integration:**
-   - Pi cryptocurrency will be used for tournament entry fees and rewards.
-   - All in-game transactions, including token awards and purchases, will be handled securely on the Pi Blockchain.
+   - The Pi Blockchain handles all transactions, from tournament entry fees to in-game purchases.
+   - Decentralized, secure, and transparent transactions ensure smooth gameplay experiences.
 
 ## Technology Stack:
-- **Frontend:** React Native for mobile app development, ensuring cross-platform compatibility (iOS, Android).
-- **Backend:** Node.js to handle the API calls, player data, and in-game transactions.
-- **Blockchain:** Pi Blockchain to manage token rewards, tournament entry fees, and prize distribution.
-- **Database:** Firebase for real-time player tracking and storing game states.
+
+- **Frontend:** React, with potential integration of Next.js to optimize performance and support Pi-Browser, ensuring compatibility across various platforms such as Windows, macOS, Android, and iOS.
+- **Backend:** Node.js and Firebase Functions (or Google Cloud Run) to handle API calls, player data management, and in-game transactions efficiently.
+- **Blockchain:** Pi Blockchain to manage reward tokens, tournament fees, and prize distribution.
+- **Database:** Firebase, providing real-time player tracking, game state storage, and seamless gameplay experiences.
 
 ## Monetization Strategy:
+
 1. **In-Game Purchases:**
-   - Players can purchase additional tokens with Pi or real currency to enter more tournaments or unlock premium features.
-   
+   - Players can buy additional tokens with Pi or fiat currency to enter more tournaments or unlock premium features such as special avatars or in-game boosts.
+
 2. **Ads:**
-   - Non-intrusive ads can be included for players to earn bonus tokens after completing trivia games.
+   - Non-intrusive advertisements can be featured, allowing players to earn bonus tokens or free tournament entry through Pi’s advertising network, offering an ad-based reward system without interrupting gameplay.
 
 3. **Tournament Fees:**
-   - Players pay an entry fee in Pi cryptocurrency to participate in tournaments, which funds the prizes.
+   - Tournament entry fees, paid in Pi cryptocurrency, will fund in-game rewards, creating an incentive for competitive players.
 
 ## Development Plan:
-1. **Phase 1:**
-   - Build the basic trivia game using an open API for questions.
-   - Implement token reward system and general scoring.
-   
-2. **Phase 2:**
-   - Integrate Pi Blockchain for tournament entry fees and rewards.
-   - Develop tournament mode with a leaderboard system.
-   
-3. **Phase 3:**
-   - Launch the peer-to-peer mode.
-   - Introduce in-game purchases and customization options.
 
-4. **Phase 4:**
-   - Testing and bug fixes.
-   - Launch the app on iOS and Android.
+- **Phase 1:**
+   - Develop a basic trivia game with questions sourced from an open API.
+   - Implement the token reward system and general scoring mechanisms.
+
+- **Phase 2:**
+   - Integrate Pi Blockchain to facilitate tournament entry fees and rewards distribution.
+   - Build the tournament mode with leaderboards to showcase top performers.
+
+- **Phase 3:**
+   - Launch the peer-to-peer mode with player matchmaking.
+   - Introduce in-game purchases, customization options, and further monetization features.
+
+- **Phase 4:**
+   - Final testing and debugging of the entire system.
+   - Prepare and launch the app on both iOS and Android platforms.
 
 ## Challenges:
+
 1. **P2P Mode:**
-   - Designing a fair system for players to compete in a peer-to-peer mode that ensures balanced matchmaking.
-   
+   - Developing a fair matchmaking system that balances player skill levels and ensures competitive, enjoyable gameplay for all users.
+
 2. **Blockchain Integration:**
-   - Ensuring smooth and secure transactions on the Pi Blockchain, particularly when managing tournament fees and rewards.
-   
+   - Ensuring seamless integration with the Pi Blockchain for smooth, secure transactions during tournament payments and rewards distribution.
+
 3. **Scalability:**
-   - Handling a large user base and ensuring the app can manage concurrent players and game sessions without lag or data issues.
+   - Managing a large and growing user base while maintaining performance and ensuring that concurrent trivia sessions run smoothly.
 
-## Conclusion:  
-Trivia World seeks to merge the fun of trivia games with the innovative capabilities of blockchain technology, creating an engaging and rewarding experience for users. With its unique mix of trivia, rewards, and blockchain-driven tournaments, Trivia World will appeal to trivia enthusiasts, casual gamers, and crypto users alike.
+## Conclusion:
+**Trivia World** merges the excitement of trivia games with blockchain technology, providing an entertaining and rewarding experience. By offering trivia-based competitions, blockchain-driven rewards, and interactive modes like tournaments and peer-to-peer matches, **Trivia World** will appeal to trivia lovers, casual gamers, and cryptocurrency enthusiasts alike.
 
-## Future Plans:  
-- Expand the range of trivia categories and questions.
-- Introduce seasonal tournaments with exclusive prizes.
-- Continuously improve the peer-to-peer mode, adding features like real-time chat and live leaderboards.
-- Explore partnerships with other Pi blockchain projects to create more opportunities for players to use their tokens.
+## Future Plans:
+
+- Expand the variety of trivia questions and categories to include niche topics and rotating seasonal themes.
+- Launch seasonal tournaments with exclusive rewards, enhancing player engagement.
+- Refine the peer-to-peer mode by incorporating real-time chat, live leaderboards, and more personalized competitive features.
+- Develop cross-chain compatibility, allowing players to use multiple cryptocurrencies for in-game purchases and rewards.
+- Explore partnerships with other Pi blockchain projects to offer integrated, interoperable rewards and collaborative experiences.
